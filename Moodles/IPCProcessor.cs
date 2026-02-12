@@ -200,7 +200,7 @@ public class IPCProcessor : IDisposable
 
     public IPCProcessor()
     {
-        EzIPC.Init(this);
+        EzIPC.Init(this, "Moodles");
         Ready();
     }
 
