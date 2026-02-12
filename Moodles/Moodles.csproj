@@ -3,6 +3,7 @@
 	<PropertyGroup>
         <Authors>kawaii, Glyceri</Authors>
         <Version>1.0.0.58</Version>
+        <AssemblyName>MoodlesForSync</AssemblyName>
     </PropertyGroup>
 
     <PropertyGroup>

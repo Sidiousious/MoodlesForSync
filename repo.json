@@ -2,16 +2,16 @@
   {
     "Author": "kawaii, Glyceri",
     "Name": "Moodles",
-    "InternalName": "Moodles",
+    "InternalName": "MoodlesForSync",
     "Description": "Design and apply your own status effects with custom formatting, durations, and other accoutrements.",
     "ApplicableVersion": "any",
     "Punchline": "Crippling depression now in the form of a debuff, kupo!",
-    "RepoUrl": "https://github.com/kawaii/Moodles",
+    "RepoUrl": "https://github.com/Sidiousious/MoodlesForSync",
     "AcceptsFeedback": false,
     "DalamudApiLevel": 14,
     "AssemblyVersion": "1.0.0.58",
-    "DownloadLinkInstall": "https://github.com/kawaii/Moodles/releases/download/1.0.0.58/Moodles.zip",
-    "DownloadLinkUpdate": "https://github.com/kawaii/Moodles/releases/download/1.0.0.58/Moodles.zip",
-    "IconUrl": "https://raw.githubusercontent.com/kawaii/Moodles/main/images/icon.png"
+    "DownloadLinkInstall": "https://github.com/Sidiousious/MoodlesForSync/releases/download/1.0.0.58/Moodles.zip",
+    "DownloadLinkUpdate": "https://github.com/Sidiousious/MoodlesForSync/releases/download/1.0.0.58/Moodles.zip",
+    "IconUrl": "https://raw.githubusercontent.com/Sidiousious/MoodlesForSync/main/images/icon.png"
   }
 ]
