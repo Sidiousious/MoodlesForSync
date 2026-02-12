@@ -16,7 +16,7 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v1
         with:
-          dotnet-version: '10.x.x'
+          dotnet-version: "10.x.x"
       - name: Restore dependencies
         run: dotnet restore
       - name: Download Dalamud
@@ -27,14 +27,6 @@ jobs:
         run: |
           $ver = '${{ github.ref_name }}'
           invoke-expression 'dotnet build --no-restore --configuration Release --nologo -p:Version=$ver -p:FileVersion=$ver -p:AssemblyVersion=$ver'
-      - name: write version into jsons
-        run: |
-          $ver = '${{ github.ref_name }}'
-          $path = './Moodles/bin/Release/Moodles.json'
-          $json = Get-Content -Raw $path | ConvertFrom-Json
-          $json.AssemblyVersion = $ver
-          $content = $json | ConvertTo-Json
-          set-content -Path $path -Value $content
       - name: Archive
         run: Compress-Archive -Path Moodles/bin/Release/* -DestinationPath Moodles.zip
       - name: Upload a Build Artifact
