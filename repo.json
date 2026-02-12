@@ -9,9 +9,9 @@
     "RepoUrl": "https://github.com/Sidiousious/MoodlesForSync",
     "AcceptsFeedback": false,
     "DalamudApiLevel": 14,
-    "AssemblyVersion": "1.0.0.58",
-    "DownloadLinkInstall": "https://github.com/Sidiousious/MoodlesForSync/releases/download/1.0.0.58/Moodles.zip",
-    "DownloadLinkUpdate": "https://github.com/Sidiousious/MoodlesForSync/releases/download/1.0.0.58/Moodles.zip",
+    "AssemblyVersion": "1.0.0.60",
+    "DownloadLinkInstall": "https://github.com/Sidiousious/MoodlesForSync/releases/download/1.0.0.60/Moodles.zip",
+    "DownloadLinkUpdate": "https://github.com/Sidiousious/MoodlesForSync/releases/download/1.0.0.60/Moodles.zip",
     "IconUrl": "https://raw.githubusercontent.com/Sidiousious/MoodlesForSync/main/images/icon.png"
   }
 ]
