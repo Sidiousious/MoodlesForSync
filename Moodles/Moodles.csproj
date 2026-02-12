@@ -18,6 +18,16 @@
         <UseWindowsForms>true</UseWindowsForms>
     </PropertyGroup>
 
+    <PropertyGroup>
+        <Author>kawaii, Glyceri</Author>
+        <Name>Moodles</Name>
+        <InternalName>MoodlesForSync</InternalName>
+        <Description>Design and apply your own status effects with custom formatting, durations, and other accoutrements.</Description>
+        <DalamudApiLevel>14</DalamudApiLevel>
+        <RepoUrl>https://github.com/Sidiousious/MoodlesForSync</RepoUrl>
+        <Punchline>Crippling depression now in the form of a debuff, kupo!</Punchline>
+    </PropertyGroup>
+
     <ItemGroup>
         <ProjectReference Include="..\ECommons\ECommons\ECommons.csproj" />
         <ProjectReference Include="..\OtterGui\OtterGui.csproj" />
